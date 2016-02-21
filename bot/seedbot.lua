@@ -224,18 +224,12 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "feedback",
     "echo",
     "welcome",
     "spam",
-    "info",
     "linkpv",
-    "tex",
-    "chuck_norris",
-    "webshot",
     "google",
-    "calculator",
-    "boobs"
+    "calculator"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
@@ -302,15 +296,11 @@ Grt a logfile of current group or realm
 
 broadcast [text]
 broadcast Hello !
-Send text to all groups
 Only sudo users can run this command
 
 bc [group_id] [text]
-bc 123456789 Hello !
-This command will send text to [group_id]
 
 نیازی به!و/نیست
-
 #sudo_user @ashi_king_kaboos
 ]],
     help_text = [[
@@ -396,8 +386,8 @@ Save <text> as [value]
 get [value]
 Returns text of [value]
 
-clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+clean [modlist|rules|about|member]
+Will clear [modlist|rules|about|member]
 
 res [username]
 returns user id
@@ -407,10 +397,8 @@ log
 will return group logs
 
 banlist
-will return group ban list
 
 نیازی به !و/نیست
-
 #sudo_user @ashi_king_kaboos
 
 ]]
